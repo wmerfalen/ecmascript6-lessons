@@ -30,4 +30,4 @@ user('andrew','foobar',0,charge('andrew','foobar','1221-2332-3443-4554','123'))
 /** 
  * Print all premium users
  */
-users.map( u => u.prem && console.log(u.fn + ' ' + u.ln + ' is a premium user'))
+users.map( u => u.prem && console.log(`${u.fn} ${u.ln} is a premium user`))
